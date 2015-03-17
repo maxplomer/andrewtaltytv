@@ -87,8 +87,28 @@ textarea {
     margin-right: 15px;
     font-size: 35px;
   }
-  a {
+  /* unvisited link */
+  a:link {
     color: white;
+    text-decoration: none;
+  }
+
+  /* visited link */
+  a:visited {
+    color: white;
+    text-decoration: none;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: white;
+    text-decoration: none;
+  }
+
+  /* selected link */
+  a:active {
+    color: grey;
+    text-decoration: none;
   }
 }
 
@@ -117,7 +137,27 @@ textarea {
     margin-right: 15px;
     font-size: 20px;
   }
-  a {
+  /* unvisited link */
+  a:link {
     color: white;
+    text-decoration: none;
+  }
+
+  /* visited link */
+  a:visited {
+    color: white;
+    text-decoration: none;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: white;
+    text-decoration: none;
+  }
+
+  /* selected link */
+  a:active {
+    color: grey;
+    text-decoration: none;
   }
 }
