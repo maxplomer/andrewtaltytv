@@ -73,9 +73,13 @@ textarea {
   margin: auto;
   margin-top: 50px;
   text-align: center;
+  opacity: 0.5;
 }
 
 .social-media {
+  text-shadow: 0 0 32px white;
+  color: transparent;
+  opacity: 0.5;
   li {
     display: inline;
   }
@@ -100,6 +104,9 @@ textarea {
 
 
 .play-button {
+  text-shadow: 0 0 8px white;
+  color: transparent;
+  opacity: 0.5;
   position: fixed;
   left: 0;
   bottom: 0;
