@@ -12,7 +12,74 @@
  *= require_tree .
  */
 
-html, body {
-  height: 100%;
-  
+@font-face { font-family: OpenSans; src: url('/fonts/OpenSans-Regular.ttf'); } 
+@font-face { font-family: OpenSans; font-weight: bold; src: url('/fonts/OpenSans-Bold.ttf'); } 
+
+/* --- RESET --- */
+
+html, body, header, footer, section, article, div,
+strong, a, img, p, h1, h2, h3, time, ul, li, small,
+form, label {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  font: inherit;
+}
+
+/* --- ELEMENTS --- */
+
+body {
+  background: rgb(239,238,236);
+  color: #333;
+  font-family: OpenSans;
+  line-height: normal;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #00f;
+}
+
+strong {
+  font-weight: bold;
+}
+
+img {
+  display: block;
+}
+
+input[type="text"],
+button,
+textarea {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  vertical-align: baseline;
+  font: inherit;
+}
+
+
+.name {
+  font-weight: bold;
+  font-size: 30px;
+  color: grey;
+}
+
+.social-media, .play-button {
+  li {
+    display: inline;
+  }
+  i {
+    margin-right: 15px;
+    font-size: 25px;
+  }
+  a {
+    color: grey;
+  }
 }
