@@ -67,19 +67,50 @@ textarea {
 
 .name {
   font-weight: bold;
-  font-size: 30px;
-  color: grey;
+  font-size: 65px;
+  color: white;
+  width: 550px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
 }
 
-.social-media, .play-button {
+.social-media {
   li {
     display: inline;
   }
   i {
     margin-right: 15px;
-    font-size: 25px;
+    font-size: 35px;
   }
   a {
-    color: grey;
+    color: white;
+  }
+}
+
+.footer {
+  /* fix footer */
+  position: fixed;
+  bottom: 25%;
+  left: 50%;
+  margin-left: -90px;
+  width: 200px;
+  height: 70px;
+}
+
+
+.play-button {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  li {
+    display: inline;
+  }
+  i {
+    margin-right: 15px;
+    font-size: 20px;
+  }
+  a {
+    color: white;
   }
 }
