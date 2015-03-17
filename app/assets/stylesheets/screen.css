@@ -69,3 +69,20 @@ ol { margin-left: 36px; }
 .clearfix:after {
     clear: both;
 }
+
+
+
+/* fix mobile */
+
+@media handheld {
+#tubular-container,
+#tubular-player,
+#tubular-shield,
+#video-controls { 
+display: none;
+width: 0;
+height: 0;
+position: fixed;
+top: -5000px;
+}
+}
